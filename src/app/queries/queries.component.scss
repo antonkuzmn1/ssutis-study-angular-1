@@ -1,0 +1,19 @@
+@import '../app.component';
+
+.queries {
+  @include main_section;
+
+  .example-container {
+    height: 400px;
+    overflow: auto;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .logo-in-table {
+    height: 52px;
+    width: auto;
+  }
+}

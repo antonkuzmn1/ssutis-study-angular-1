@@ -1,0 +1,17 @@
+@import '../app.component';
+
+.home {
+  @include main_section;
+
+  &__logo {
+    width: auto;
+    height: 100px;
+    margin-bottom: 2%;
+  }
+
+  &__header {
+  }
+
+  &__paragraph{
+  }
+}

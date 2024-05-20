@@ -1,0 +1,11 @@
+@import '../app.component';
+
+.about {
+  @include main_section;
+
+  &__header {
+  }
+
+  &__paragraph{
+  }
+}
